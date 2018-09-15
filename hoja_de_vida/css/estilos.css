@@ -1,0 +1,98 @@
+body{
+    color: black;
+    text-align: justify;
+    font-family: 'Quicksand', sans-serif;
+    width: 100wh;
+	height: 100vh;
+	background: linear-gradient(-45deg, #BF0C2B, #02173E, #09A38C, #F5900E);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#tiutlo {
+    color:black;
+    text-align:left;
+    font-family: 'Quicksand', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#behance:hover{
+    color: navy;
+    font-weight: bold;
+}
+#pinterest:hover{
+    color: brown;
+    font-weight: bold;
+}
+#youtube:hover{
+    color: red;
+    font-weight: bold;
+}
+#contenido {
+max-width:600px;
+width:100%;
+margin:0 auto;
+position:relative;
+background: rgba(255, 255, 255, 0.7);
+padding:25px;
+box-shadow: 0px 2px 101px -14px rgba(0,0,0,0.75); 
+border-radius: 5px 5px 5px 5px;  
+}
+#nico{
+	border-bottom:3px solid rgba(255,255,255,0.4);
+}
+img{
+   height: 150px;
+   padding: 10px ;
+   border-radius: 50%;
+   float: left; 
+}
+img:hover{
+	box-shadow: 0px 2px 101px -14px rgba(0,0,0,0.75);
+}
+ul {
+    list-style:none;
+}
+.estudios:hover{
+ text-decoration: underline;
+}
